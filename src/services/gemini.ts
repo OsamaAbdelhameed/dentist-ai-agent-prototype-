@@ -55,6 +55,7 @@ export async function getChatResponse(history: { role: "user" | "model"; parts: 
   });
 
   const response = await model;
+  
   try {
     return JSON.parse(response.text) as GeminiResponse;
   } catch (e) {
