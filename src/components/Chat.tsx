@@ -187,12 +187,12 @@ export default function Chat() {
                     <motion.div 
                       initial={{ scale: 0.9, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
-                      className="rounded-xl overflow-hidden border border-gray-200 shadow-md bg-white p-1"
+                      className="rounded-xl overflow-hidden border border-gray-200 shadow-md bg-gray-50 p-1 flex justify-center"
                     >
                       <img 
                         src={data.imageUrl} 
                         alt="Dental Service" 
-                        className="w-full h-48 object-cover rounded-lg"
+                        className="max-w-full max-h-[min(70vh,640px)] w-auto h-auto object-contain rounded-lg"
                         referrerPolicy="no-referrer"
                         onError={(e) => {
                           (e.target as HTMLImageElement).src = `https://picsum.photos/seed/${data.imageUrl}/800/600`;

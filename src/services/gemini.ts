@@ -19,13 +19,13 @@ Your response MUST be a JSON object with the following fields:
 - text: (string) Your message to the user. Use Markdown for formatting.
 - imageUrl: (string, optional) A URL to an image from the public folder if relevant to the topic.
   Available images (Mouths/Cases):
-  - /images/mouth_hollywood.jpg: A stunning, bright white "Hollywood" smile transformation.
-  - /images/mouth_natural.jpg: A subtle, natural-looking enhancement for a classic look.
-  - /images/mouth_transformation.jpg: A clear before-and-after comparison showing the impact of our work.
-  - /images/mouth_precision.jpg: A side-view detail showing the perfect fit and alignment of veneers.
-  - /images/mouth_model.jpg: A technical view of a dental model showing our precision engineering.
-  - /images/mouth_glossy.jpg: A radiant smile with a high-gloss, polished finish.
-  - /images/mouth_classic.jpg: A beautiful, well-proportioned smile with vibrant color.
+  - /images/mouth_hollywood.png: A stunning, bright white "Hollywood" smile transformation.
+  - /images/mouth_natural.png: A subtle, natural-looking enhancement for a classic look.
+  - /images/mouth_transformation.png: A clear before-and-after comparison showing the impact of our work.
+  - /images/mouth_precision.png: A side-view detail showing the perfect fit and alignment of veneers.
+  - /images/mouth_model.png: A technical view of a dental model showing our precision engineering.
+  - /images/mouth_glossy.png: A radiant smile with a high-gloss, polished finish.
+  - /images/mouth_classic.png: A beautiful, well-proportioned smile with vibrant color.
 - showBooking: (boolean, optional) Set to true if the user is ready to book a consultation.
 
 Guidelines:
